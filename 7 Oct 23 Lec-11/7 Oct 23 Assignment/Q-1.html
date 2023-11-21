@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr); 
+           
+        }
+        
+     .first{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            
+        }
+        .second{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .third{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .four{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .five{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .six{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="fisrt"><img src="1.jpg" alt="First Image" height="200px"></div>
+        <div class="second"><img src="2.jpg" alt="Second Image" height="200px"></div>
+        <div class="third"><img src="3.jpg" alt="Third Image" height="400px"></div>
+        <div class="four"><img src="4.jpg" alt="FOurth Image" height="200px" ></div>
+        <div class="five"><img src="5.jpg" alt="Five Image" height="200px"></div>
+        <div class="six"><img src="6.jpg" alt="Six Image" height="400px"></div>
+
+    </div>
+</body>
+</html>

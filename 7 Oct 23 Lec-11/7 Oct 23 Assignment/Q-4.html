@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(6,100px);
+            gap: 10px;
+        }
+        .box{
+            background-color: #444;
+            color: #fff;
+            border-radius: 10px;
+            height: 50px;
+            padding: 50px;
+        }
+        .box:nth-child(even){
+            background-color: gray;
+            color: black;
+        }
+        .box1{
+            order: 1;
+        }
+        .box2{
+            order: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1 box">1</div>
+        <div class="box2 box">2</div>
+        <div class="box3 box">3</div>
+        <div class="box4 box">4</div>
+        <div class="box5 box">5</div>
+        <div class="box6 box">6</div>
+        <div class="box7 box">7</div>
+        <div class="box8 box">8</div>
+    </div>
+</body>
+</html>
